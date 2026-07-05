@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import ThreeBackgroundWrapper from "@/components/ThreeBackgroundWrapper";
 import Reveal from "@/components/Reveal";
+import Img from "@/components/Img";
 
 const testimonials = [
   { text: "Das beste Bauernbrot weit und breit! Seit ich beim Backerladen kaufe, will ich kein Brot mehr aus dem Supermarkt.", name: "Anna M.", role: "Stammkundin" },
@@ -15,12 +15,11 @@ export default function Home() {
       <section className="relative min-h-[80vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-dark/80 to-dark/40 z-20" />
         <ThreeBackgroundWrapper />
-        <Image
+        <Img
           src="/images/Screenshot_20260704-112650.png"
           alt="Frisches Brot aus dem Ofen"
           fill
           className="object-cover"
-          priority
         />
         <Reveal className="relative z-30 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-xl">
@@ -83,11 +82,10 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col lg:flex-row items-center gap-12">
               <div className="relative w-full lg:w-1/2 aspect-[4/3] rounded-2xl overflow-hidden">
-                <Image
+                <Img
                   src="/images/Screenshot_20260704-112654.png"
                   alt="Unser Sortiment"
                   fill
-                  className="object-cover"
                 />
               </div>
               <div className="lg:w-1/2">

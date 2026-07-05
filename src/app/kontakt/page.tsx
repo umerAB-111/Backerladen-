@@ -1,15 +1,14 @@
-import Image from "next/image";
+import Img from "@/components/Img";
 
 export default function KontaktPage() {
   return (
     <>
       <section className="relative h-64 flex items-center justify-center bg-gradient-to-r from-[#5B9BD5] to-[#B8D4E3]">
         <div className="absolute inset-0 opacity-10">
-          <Image
+          <Img
             src="/images/Screenshot_20260704-112704.png"
             alt="Kontakt"
             fill
-            className="object-cover"
           />
         </div>
         <div className="relative z-10 text-center text-white">
@@ -70,11 +69,10 @@ export default function KontaktPage() {
             </div>
 
             <div className="relative aspect-square lg:aspect-auto rounded-2xl overflow-hidden shadow-sm border border-[#B8D4E3]/30">
-              <Image
+              <Img
                 src="/images/Screenshot_20260704-112759.png"
                 alt="Backerladen – Ihre Bäckerei"
                 fill
-                className="object-cover"
               />
             </div>
           </div>

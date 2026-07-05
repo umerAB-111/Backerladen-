@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Img from "@/components/Img";
 import ThreeBackgroundWrapper from "@/components/ThreeBackgroundWrapper";
 
 const team = [
@@ -20,11 +20,10 @@ export default function UeberUnsPage() {
       <section className="relative h-64 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-dark/80 to-primary/60 z-10" />
         <ThreeBackgroundWrapper />
-        <Image
+        <Img
           src="/images/Screenshot_20260704-112659.png"
           alt="Über uns"
           fill
-          className="object-cover"
         />
         <div className="relative z-20 text-center text-white">
           <h1 className="text-4xl sm:text-5xl font-bold">Über uns</h1>

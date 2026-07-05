@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Img from "@/components/Img";
 
 const products = [
   {
@@ -39,11 +39,10 @@ export default function SortimentPage() {
     <>
       <section className="relative h-64 flex items-center justify-center bg-gradient-to-r from-dark to-primary">
         <div className="absolute inset-0 opacity-20">
-          <Image
+          <Img
             src="/images/Screenshot_20260704-112659.png"
             alt="Sortiment"
             fill
-            className="object-cover"
           />
         </div>
         <div className="relative z-10 text-center text-white">
