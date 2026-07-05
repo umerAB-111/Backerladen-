@@ -15,10 +15,10 @@ export default function Logo({ className = "w-32" }: { className?: string }) {
         fontWeight="bold"
         fill="#8B5E3C"
       >
-        Backer
+        Bäcker
       </text>
       <text
-        x="122"
+        x="130"
         y="42"
         fontFamily="Georgia, serif"
         fontSize="32"

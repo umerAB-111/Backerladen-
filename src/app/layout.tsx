@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Backerladen – Frisches Brot & Brötchen",
+  title: "Bäckerladen – Frisches Brot & Brötchen",
   description: "Handgemachtes Brot und Brötchen aus traditioneller Bäckerei. Mit Liebe gebacken.",
 };
 

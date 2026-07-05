@@ -27,7 +27,7 @@ export default function KontaktPage() {
                   <div className="flex items-start gap-4">
                     <span className="flex-shrink-0 w-10 h-10 bg-[#EBF3FA] rounded-full flex items-center justify-center text-lg text-[#5B9BD5]">📍</span>
                     <div>
-                      <p className="font-semibold text-dark">Backerladen</p>
+                      <p className="font-semibold text-dark">Bäckerladen</p>
                       <p>Musterstraße 42</p>
                       <p>12345 Musterstadt</p>
                     </div>
@@ -71,7 +71,7 @@ export default function KontaktPage() {
             <div className="relative aspect-square lg:aspect-auto rounded-2xl overflow-hidden shadow-sm border border-[#B8D4E3]/30">
               <Img
                 src="/images/Screenshot_20260704-112759.png"
-                alt="Backerladen – Ihre Bäckerei"
+                alt="Bäckerladen – Ihre Bäckerei"
                 fill
               />
             </div>

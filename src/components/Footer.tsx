@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3 tracking-wide uppercase text-sm">Kontakt</h3>
             <p className="text-sm text-white/60 leading-relaxed">
-              Backerladen<br />
+              Bäckerladen<br />
               Musterstraße 42<br />
               12345 Musterstadt
             </p>
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-white/40">
-          &copy; {new Date().getFullYear()} Backerladen. Alle Rechte vorbehalten.
+          &copy; {new Date().getFullYear()} Bäckerladen. Alle Rechte vorbehalten.
         </div>
       </div>
     </footer>

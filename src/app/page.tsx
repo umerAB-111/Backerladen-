@@ -4,7 +4,7 @@ import Reveal from "@/components/Reveal";
 import Img from "@/components/Img";
 
 const testimonials = [
-  { text: "Das beste Bauernbrot weit und breit! Seit ich beim Backerladen kaufe, will ich kein Brot mehr aus dem Supermarkt.", name: "Anna M.", role: "Stammkundin" },
+  { text: "Das beste Bauernbrot weit und breit! Seit ich beim Bäckerladen kaufe, will ich kein Brot mehr aus dem Supermarkt.", name: "Anna M.", role: "Stammkundin" },
   { text: "Die Laugenbrötchen sind der Hammer – knusprig, salzig, perfekt. Und das Team ist immer freundlich!", name: "Jonas K.", role: "Frühaufsteher" },
   { text: "Endlich eine Bäckerei, die noch ehrliches Handwerk betreibt. Man schmeckt die Liebe in jedem Bissen.", name: "Claudia R.", role: "Genussmensch" },
 ];
@@ -53,7 +53,7 @@ export default function Home() {
         <section className="py-20 bg-cream">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-dark">Willkommen beim Backerladen</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-dark">Willkommen beim Bäckerladen</h2>
               <p className="mt-4 text-foreground/70 max-w-2xl mx-auto">
                 Wir backen nach traditionellen Rezepten mit ausgewählten Zutaten. Bei uns steht Qualität und Handwerk an erster Stelle.
               </p>

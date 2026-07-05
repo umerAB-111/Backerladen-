@@ -39,14 +39,14 @@ export default function UeberUnsPage() {
           </div>
           <div className="prose prose-lg mx-auto text-foreground/80 leading-relaxed">
             <p>
-              Der <strong>Backerladen</strong> wurde im Jahr 2024 aus einer einfachen Idee heraus geboren:
+              Der <strong>Bäckerladen</strong> wurde im Jahr 2024 aus einer einfachen Idee heraus geboren:
               Brot zu backen, das schmeckt wie früher – ehrlich, handgemacht und mit hochwertigen Zutaten.
             </p>
             <p>
               Unser Gründer und Bäckermeister <strong>Thomas Berger</strong> hat nach Jahren in der
               Gastronomie beschlossen, seiner wahren Leidenschaft zu folgen: dem Bäckerhandwerk.
               Nach der Meisterausbildung und intensiven Reisen durch Europas Backkulturen hat er
-              sich mit dem Backerladen in Musterstadt selbstständig gemacht.
+              sich mit dem Bäckerladen in Musterstadt selbstständig gemacht.
             </p>
             <p>
               Heute backen wir täglich frisch nach traditionellen Rezepten, die über Generationen
@@ -62,7 +62,7 @@ export default function UeberUnsPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-primary text-sm font-semibold uppercase tracking-widest">Unser Team</span>
-            <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-dark">Die Menschen hinter dem Backerladen</h2>
+            <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-dark">Die Menschen hinter dem Bäckerladen</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member) => (
